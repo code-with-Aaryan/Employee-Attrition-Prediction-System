@@ -97,12 +97,16 @@ The dashboard provides three interactive sections:
 - Upload employee dataset
 - Predict multiple employees
 - Download prediction report
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/377e4030-58b8-4a06-b85d-9b8d5f7bccb7" />
+
 
 ### 3️⃣ Feature Importance
 
 - Top 10 influential features
 - Horizontal bar chart visualization
 
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/814fee9f-7eaa-442c-847a-f404b104d2ae" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/16160ba2-6b8c-4f26-b773-b7bfd40bcc5d" />
 ---
 
 # ⚙️ Installation
