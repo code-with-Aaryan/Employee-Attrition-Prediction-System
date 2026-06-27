@@ -1,0 +1,89 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C Extensions
+*.so
+
+# Distribution / Packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+.virtual_documents/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyproject/
+
+# Rope
+.ropeproject/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# Coverage Reports
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Model Files (Uncomment if you don't want to upload)
+# *.pkl
+
+# Large datasets (Uncomment if needed)
+# *.csv
+# *.xlsx
+
+# Generated Charts
+charts/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
