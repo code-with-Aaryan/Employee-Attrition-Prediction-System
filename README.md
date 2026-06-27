@@ -20,6 +20,45 @@ The project consists of:
 - Feature Importance visualization
 
 ---
+# 📊 Dashboard Preview
+
+The dashboard provides three interactive sections:
+
+
+### 1️⃣ Single Employee Prediction
+
+- Employee information form
+- Attrition prediction
+- Probability score
+- HR recommendation
+
+<img width="1919" height="1003" alt="Image" src="https://github.com/user-attachments/assets/b2963e25-cd36-4a51-b228-fa463a035941" />
+<img width="1919" height="1009" alt="Image" src="https://github.com/user-attachments/assets/239190a3-3657-46be-b749-7689e2e1667d" />
+<img width="1919" height="990" alt="Image" src="https://github.com/user-attachments/assets/fd9da1e0-4ea3-4d6c-8190-8e73e62ae698" />
+
+
+### 2️⃣ Bulk CSV Upload
+
+- Upload employee dataset
+- Predict multiple employees
+- Download prediction report
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/377e4030-58b8-4a06-b85d-9b8d5f7bccb7" />
+
+
+### 3️⃣ Feature Importance
+
+- Top 10 influential features
+- Horizontal bar chart visualization
+
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/814fee9f-7eaa-442c-847a-f404b104d2ae" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/16160ba2-6b8c-4f26-b773-b7bfd40bcc5d" />
+---
+
+
+
+
+
+---
 
 # 🚀 Features
 
@@ -75,39 +114,6 @@ Employee-Attrition-Prediction/
 
 ---
 
-# 📊 Dashboard Preview
-
-The dashboard provides three interactive sections:
-
-
-### 1️⃣ Single Employee Prediction
-
-- Employee information form
-- Attrition prediction
-- Probability score
-- HR recommendation
-
-<img width="1919" height="1003" alt="Image" src="https://github.com/user-attachments/assets/b2963e25-cd36-4a51-b228-fa463a035941" />
-<img width="1919" height="1009" alt="Image" src="https://github.com/user-attachments/assets/239190a3-3657-46be-b749-7689e2e1667d" />
-<img width="1919" height="990" alt="Image" src="https://github.com/user-attachments/assets/fd9da1e0-4ea3-4d6c-8190-8e73e62ae698" />
-
-
-### 2️⃣ Bulk CSV Upload
-
-- Upload employee dataset
-- Predict multiple employees
-- Download prediction report
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/377e4030-58b8-4a06-b85d-9b8d5f7bccb7" />
-
-
-### 3️⃣ Feature Importance
-
-- Top 10 influential features
-- Horizontal bar chart visualization
-
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/814fee9f-7eaa-442c-847a-f404b104d2ae" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/16160ba2-6b8c-4f26-b773-b7bfd40bcc5d" />
----
 
 # ⚙️ Installation
 
