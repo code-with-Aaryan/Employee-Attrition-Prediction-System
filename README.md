@@ -1,6 +1,6 @@
 # 🏢 Employee Attrition Prediction System
 
-An end-to-end Machine Learning project that predicts whether an employee is likely to leave an organization using the IBM HR Analytics Employee Attrition dataset. The project includes complete data preprocessing, model training, evaluation, and an interactive Streamlit dashboard for real-time predictions and bulk employee analysis. :contentReference[oaicite:0]{index=0}
+An end-to-end Machine Learning project that predicts whether an employee is likely to leave an organization using the IBM HR Analytics Employee Attrition dataset. The project includes complete data preprocessing, model training, evaluation, and an interactive Streamlit dashboard for real-time predictions and bulk employee analysis.
 
 ---
 
