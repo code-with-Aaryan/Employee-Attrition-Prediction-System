@@ -1,18 +1,15 @@
-"""
-Employee Attrition Prediction - Streamlit Dashboard
-=====================================================
-Run with:  streamlit run app.py
+# """
+# Employee Attrition Prediction - Streamlit Dashboard
+# 
+# Run with:  streamlit run app.py
 
-Loads the pipeline saved by analysis.ipynb (attrition_model.pkl) and uses it to:
-  1. Predict attrition risk for a single employee entered via a form
-  2. Score a whole CSV of employees at once (bulk upload)
-  3. Show the top 10 feature importances behind the model
-  4. Give a short, plain-language recommendation per employee
+# Loads the pipeline saved by analysis.ipynb (attrition_model.pkl) and uses it to:
+#   1. Predict attrition risk for a single employee entered via a form
+#   2. Score a whole CSV of employees at once (bulk upload)
+#   3. Show the top 10 feature importances behind the model
+#   4. Give a short, plain-language recommendation per employee
 
-This file is intentionally written the same way as the notebook: top-to-bottom,
-heavily commented, minimal custom functions - just one helper function
-(predict_employee), which mirrors the one defined in the notebook.
-"""
+
 
 import streamlit as st
 import pandas as pd
@@ -32,9 +29,9 @@ def load_model():
 
 model = load_model()
 
-# ----------------------------------------------------------------------------
+# -
 # Same prediction function as in the notebook - one employee in, prediction out.
-# ----------------------------------------------------------------------------
+#
 def predict_employee(employee: dict) -> dict:
     employee_df = pd.DataFrame([employee])
     probability_leave = model.predict_proba(employee_df)[0, 1]
@@ -60,9 +57,9 @@ st.caption("Built on the IBM HR Analytics Attrition dataset - "
 
 tab1, tab2, tab3 = st.tabs(["Single Employee", "Bulk Upload (CSV)", "What Drives Attrition"])
 
-# ==============================================================================
+# 
 # TAB 1 - Single employee form
-# ==============================================================================
+# 
 with tab1:
     st.subheader("Enter employee details")
     st.write("Fill in the fields below and click Predict.")
@@ -136,9 +133,9 @@ with tab1:
             st.metric("Probability of Leaving", f"{result['probability_of_leaving'] * 100:.1f}%")
         st.info(recommendation_for(result["probability_of_leaving"]))
 
-# ==============================================================================
+# 
 # TAB 2 - Bulk CSV upload
-# ==============================================================================
+# 
 with tab2:
     st.subheader("Score a batch of employees")
     st.write("Upload a CSV with the same columns as `HR_Attrition.csv` "
@@ -169,9 +166,9 @@ with tab2:
         st.download_button("Download scored results as CSV", csv_download,
                             file_name="attrition_predictions.csv", mime="text/csv")
 
-# ==============================================================================
+# 
 # TAB 3 - Feature importance (same chart as the notebook's Task 6 / Chart 4)
-# ==============================================================================
+# 
 with tab3:
     st.subheader("What drives the model's predictions")
 
